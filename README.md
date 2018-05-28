@@ -15,11 +15,11 @@
  - 주어진 logic 표현을 clausal form으로 변환하여 출력하는 프로그램을 작성하라.
  - 단순함을 위해, 명제의 부정(negation)을 알파벳 대문자로 표시하고, clasual form은 'or'를 생략하여 표시한다.
  - 예시)
- > input : ~(a*b) || output : AB (= ~a+b)
+ > input : ~(a*b)    ||    output : AB (= ~a+b)
  
- > input : ~(a+~b) || output : A b (two clauses)
+ > input : ~(a+~b)    ||    output : A b (two clauses)
  
- > input : (a>b)+~(c*~d) || output : AbCd
+ > input : (a>b)+~(c*~d)    ||    output : AbCd
  
 ### (2) Resolution reputation for predication logic
  - 주어진 predication logic에 대해 resolution reputation을 수행하는 프로그램을 작성하라.
@@ -40,15 +40,15 @@
  
 ## 3. Result
 (1) Convert to clausal form
- - input : ~(a*b) || output : AB (= ~a+b)
+ - input : ~(a*b)    ||    output : AB (= ~a+b)
  
  ![image](https://user-images.githubusercontent.com/26705935/40596519-66677608-6276-11e8-808c-8b1839651af1.png)
  
- - input : ~(a+~b) || output : A b (two clauses)
+ - input : ~(a+~b)    ||    output : A b (two clauses)
  
  ![image](https://user-images.githubusercontent.com/26705935/40596544-88659a46-6276-11e8-806d-30c13c0cf00d.png)
  
- - input : (a>b)+~(c*~d) || output : AbCd
+ - input : (a>b)+~(c*~d)    ||    output : AbCd
  
  ![image](https://user-images.githubusercontent.com/26705935/40596555-a1763932-6276-11e8-9c60-b14777fa1f05.png)
  
