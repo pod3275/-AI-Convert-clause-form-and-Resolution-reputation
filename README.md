@@ -42,17 +42,24 @@
 (1) Convert to clausal form
  - input : ~(a*b) || output : AB (= ~a+b)
  
+ ![image](https://user-images.githubusercontent.com/26705935/40596519-66677608-6276-11e8-808c-8b1839651af1.png)
+ 
  - input : ~(a+~b) || output : A b (two clauses)
  
+ ![image](https://user-images.githubusercontent.com/26705935/40596544-88659a46-6276-11e8-806d-30c13c0cf00d.png)
+ 
  - input : (a>b)+~(c*~d) || output : AbCd
+ 
+ ![image](https://user-images.githubusercontent.com/26705935/40596555-a1763932-6276-11e8-9c60-b14777fa1f05.png)
  
 (2) Resolution reputation for predication logic
  - 예시)에 대한 결과
  
+ ![image](https://user-images.githubusercontent.com/26705935/40596571-c9f37b9a-6276-11e8-9436-6d171cdc55ca.png)
  
  - "The goal is TRUE" 결과
  
- 
+ ![image](https://user-images.githubusercontent.com/26705935/40596602-f42b5900-6276-11e8-86e2-68bff87acfe6.png)
  
  ## 4. Future work
  - 전체 코드가 600줄이 넘을 정도로 매우 길다. 코드를 정리하고, c++의 객체(클래스) 특성을 이용하여 간결화할 필요가 있다.
