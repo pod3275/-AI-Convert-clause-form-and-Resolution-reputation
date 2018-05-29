@@ -16,8 +16,10 @@
  - 단순함을 위해, 명제의 부정(negation)을 알파벳 대문자로 표시하고, clasual form은 'or'를 생략하여 표시한다.
  - 예시)
    > input : ~(a*b)    ||    output : AB (= ~a+b)  
-     input : ~(a+~b)    ||    output : A b (two clauses)   
-     input : (a>b)+~(c*~d)    ||    output : AbCd
+   
+   > input : ~(a+b)    ||    output : A b (two clauses)  
+   
+   > input : (a>b)+~(c*~d)    ||    output : AbCd
  
 ### (2) Resolution reputation for predication logic
  - 주어진 predication logic에 대해 resolution reputation을 수행하는 프로그램을 작성하라.
