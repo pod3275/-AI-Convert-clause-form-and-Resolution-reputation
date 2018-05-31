@@ -1,6 +1,8 @@
 # Convert-clause-form-and-Resolution-reputation
  - 2017년 1학기 성균관대학교 이지형 교수님 인공지능 수업 2번째 과제
- - 주어진 logic operation을 clausal form으로 변환 및 resolution reputation을 수행하는 문제.
+ - 주어진 logic operation을 clausal form으로 변환 및 resolution reputation을 수행하는 문제
+ - 2017 1st semester Sungkyunkwan University professor Jee Hyong Lee's Artificial Intelligence class, 2nd assignment
+ - Converting a given logic operation into a clausal form and performing resolution reputation
 
 ## 1. Problem
  - 모든 명제(propositions)는 알파벳 소문자로 되어있다고 가정한다.
